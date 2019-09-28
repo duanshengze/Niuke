@@ -66,7 +66,7 @@ public class RandomQuickSort {
     public static void main(String[] args) {
         RandomQuickSort quickSort = new RandomQuickSort();
         int times = 50000;
-        int maxSize = 100;
+        int maxSize = 1000;
         int maxValue = 1000;
         boolean succeed = true;
         long startTime=System.currentTimeMillis();

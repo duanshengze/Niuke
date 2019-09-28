@@ -22,7 +22,7 @@ public class QuickSort {
             return;
         }
         int[] partion = partion(array, index1, index2, array[index2]);
-        sort(array, 0, partion[0] - 1);
+        sort(array, index1, partion[0] - 1);
         sort(array, partion[1] + 1, index2);
     }
 
@@ -66,7 +66,7 @@ public class QuickSort {
     public static void main(String[] args) {
         QuickSort quickSort = new QuickSort();
         int times = 50000;
-        int maxSize = 100;
+        int maxSize = 1000;
         int maxValue = 1000;
         boolean succeed = true;
         long startTime=System.currentTimeMillis();
