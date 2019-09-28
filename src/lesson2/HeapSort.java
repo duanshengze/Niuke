@@ -1,10 +1,8 @@
-package class2;
+package lesson2;
 
 import utils.Utils;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.Collections;
 
 import static utils.Utils.printArray;
 
